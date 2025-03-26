@@ -29,4 +29,8 @@ export const Header: GlobalConfig = {
   hooks: {
     afterChange: [revalidateHeader],
   },
+  versions: {
+    max: 2,
+    drafts: true,
+  },
 }
